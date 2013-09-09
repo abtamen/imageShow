@@ -16,6 +16,7 @@ public class WindowUtilities {
       UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
     } catch(Exception e) {
       System.out.println("Error setting native LAF: " + e);
+      System.out.println("did it work");
     }
   }
 
